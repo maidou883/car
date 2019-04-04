@@ -1,0 +1,35 @@
+.nav{
+	width: 100%;
+	height: 25px;
+	margin-top: 12px;
+}
+.nav .nav-content{
+	width: 1170px;
+	height: 25px;
+	margin: 0 auto;
+}
+.nav .nav-content ul{
+	/*float: left;*/
+}
+.nav .nav-content ul li{
+	float: left;
+	width: 100px;
+	text-align: center;
+	height: 30px;
+	margin: 0 15px;
+	position: relative;
+	
+}
+.nav .nav-content ul .issub{
+	border: none;
+}
+.nav .nav-content ul .bottom_link{
+	border-bottom: 2px solid #ff0101;
+	background: url(../img/yq_05.jpg)  90px no-repeat;
+}
+.nav .nav-content ul li a{
+	font-size: 16px;
+	font-weight: bold;
+	color: #727274;
+	font-family:'Microsoft Yahei';
+}
